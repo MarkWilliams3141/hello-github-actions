@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img class="octocat-logo" alt="Vue logo" src="./assets/octocat.png">
+    <HelloGitHubActions msg="Automating your workflow with GitHub Actions"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloGitHubActions from './components/HelloGitHubActions.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    HelloGitHubActions
   }
 }
 </script>
@@ -25,4 +25,6 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+#app .octocat-logo { width: 300px; }
+.hello { text-align: left; max-width: 700px; margin: auto;}
 </style>
