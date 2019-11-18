@@ -1,0 +1,1 @@
+How can we deploy manually with GitHub actions?
