@@ -18,7 +18,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - name: Docker apline step
-        uses: docker://alpine:3.8
+      uses: docker://alpine:3.8
     - name: npm install, build, and test
       run: |
         npm ci
